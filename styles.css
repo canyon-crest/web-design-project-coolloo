@@ -1,1 +1,12 @@
+body{
+    background-color:lemonchiffon;
+}
 
+p{
+    line-height: 1.75em;
+}
+
+img{
+    width: 300px;
+    float: right;
+}
