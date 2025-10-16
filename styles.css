@@ -61,9 +61,7 @@ img{
     float:right;
 }
 
-#p2{
-    text-align: right;
-}
+
 
 a:link{
     color: slateblue;
@@ -85,5 +83,8 @@ a:active{
 }
 
 .highlight{
-
+    background-color: yellow;
+    color:black;
+    padding:5px 2px 5px 2px;
+    border-radius: 2px;
 }
