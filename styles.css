@@ -10,8 +10,8 @@ body{
     margin:auto;
     background-color:bisque;
     padding: 40px;
-    border-left: 5px double lightblue;
-    border-right: 5px double lightblue;
+    border-left: 10px double lightblue;
+    border-right: 10px double lightblue;
 }
 
 header{
@@ -21,10 +21,10 @@ header{
 
 h1{
     padding: 20px;
-    border: 4px solid lightblue;
+    border: 5px solid lightblue;
     display: inline-block;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: antiquewhite;
 }
 
@@ -35,17 +35,17 @@ h2{
 h3{
     border-left: 20px double slateblue;
     padding-left:20px;
-    border-radius: 20px;
+    border-radius: 50px;
     border-bottom: 2px solid slateblue;
+    margin-top: 50px;
 }
 
 p{
     line-height: 2.5em;
     font-family: sans-serif;
-    padding: 10px;
-    margin-bottom: 75px;
-    border: 4px dotted lightblue;
-    border-radius: 10px;
+    padding: 25px;
+    border: 10px dotted lightblue;
+    border-radius: 50px;
     background-color:blanchedalmond;
 }
 
@@ -53,8 +53,8 @@ img{
     width: auto;
     height: auto;
     float: left;
-    border: 2px solid lightblue;
-    border-radius: 10px;
+    border: 5px solid lightblue;
+    border-radius: 25px;
 }
 
 #img2{
@@ -64,13 +64,13 @@ img{
 
 
 a:link{
-    color: slateblue;
+    color:darkblue;
     text-decoration: none;
     font-weight: bold;
 }
 
 a-visited{
-    color:blueviolet;
+    color:violet;
 }
 
 a:hover{
@@ -94,9 +94,10 @@ a:active{
     width: 200px;
     line-height: 2em;
     border: 4px dotted lightblue;
+    border-radius: 50px;
     float:right;
     margin: 20px;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 @media (max-width:1200px){
