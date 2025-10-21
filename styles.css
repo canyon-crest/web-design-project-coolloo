@@ -220,7 +220,25 @@ a:active{
     }
     h1{
         border: none;
-        background:none;
+        background: none; /* remove gradient background used for large screens */
+        color: navy; /* solid fallback so text is visible on small screens */
+        -webkit-background-clip: unset;
+        background-clip: unset;
+        font-size: 1.4rem;
+        padding: 10px 12px;
+        display: block;
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    header{
+        padding: 18px 12px;
+        margin-bottom: 12px;
+        border-radius: 18px;
+        border-width: 6px;
+        width: calc(100% - 24px);
+        box-sizing: border-box;
     }
     img{
         width: 200px;
